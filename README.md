@@ -1,13 +1,14 @@
 # agrPhy
-Demonstration of Jreina's available skillset &amp; experience, a place to explore &amp; have some fun
+Demonstration of Jreina's available skillset &amp; experience
 
-`
-- [agrPhy Wiki](https://github.com/justinmreina/agrPhy/wiki) - the fun stuff
-`
+- [agrPhy Wiki](https://github.com/justinmreina/agrPhy/wiki) - a place to explore &amp; have some fun
+
+# Development
+
+- [Wiki - Dev](https://github.com/justinmreina/agrPhy/wiki/Development)
 
 # Opens
 
-`
 - Wiki
 - Dir Layout
 - Phycore reference
@@ -15,19 +16,6 @@ Demonstration of Jreina's available skillset &amp; experience, a place to explor
 - Listing of piece this has
 - Listing of piece this shares
 - public read access to repsitory contents
-`
-
-# Development
-
-`
-- [Wiki - Dev](https://github.com/justinmreina/agrPhy/wiki/Development)
 
 # Contact
-
-Justin Reina
-
-(425)760-7291
-
-justinmreina@gmail.com
-
-justinreina.com/portfolio
+[Justin Reina](https://www.justinreina.com/portfolio),  justinmreina@gmail.com
