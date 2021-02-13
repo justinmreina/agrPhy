@@ -3,10 +3,6 @@ Demonstration of Jreina's available skillset &amp; experience
 
 - [agrPhy Wiki](https://github.com/justinmreina/agrPhy/wiki) - a place to explore &amp; have some fun
 
-# Development
-
-- [Wiki - Dev](https://github.com/justinmreina/agrPhy/wiki/Development)
-
 # Opens
 
 - Wiki
