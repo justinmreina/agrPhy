@@ -1,0 +1,66 @@
+@brief 		Getting Started Notes
+@details 	x
+@auth		Justin Reina
+@date		2/13/21
+
+
+@section 	Hardware
+	SoM: phyCORE-i.MX 8M Mini
+	Brd: phyBOARD-i.MX 8M Mini
+
+@section 	phySD Procedure [1]
+	@brief 	boot PHYTEC's Android (BSP) on the phyCORE-i.MX8M mini development kit
+	
+	• Insert the SD card from kit
+
+	• Connect Power Supply to X33
+	• Connect Ethernet to X1
+	• Connect USB to X2/X3 (COM3)
+	
+	• Connect PuTTy (115200, 8-bit no parity, 1 stop-bit & no flow ctrl)
+	
+	• Find LAN(eth0) IP Address ('ifconfig -a')
+		192.168.3.11
+		ping for confirm
+
+	@post 	Board operation is confirmed 
+
+@section 	cleanSD Procedure
+	• Clean SD [3]
+		Delete partition ('Disks' -> '-)
+		Create partition ('+', Full, FAT -> /dev/sdc1, not mounted)
+		Mount
+
+	• Flash a new SD [4]
+		get tar to Downloads\ & unpack
+		unmount dev/sdc1
+		sudo ./fsl-sdcard-partition.sh -f imx8mm /dev/sdc1
+		
+		@out 	ErrorMsg.png ("BLKRRPART failed: Invalid argument")
+
+@section 	Status
+	• phySD image doesn't support 'sudo', 'apt-get' or 'install'?
+		PuTTy works, is RDP available here?
+	
+	• cleanSD image troubles flashing (tables setup?)
+
+@section 	phySD Feedback
+	• Add "Login using root (no password is required)" from [2] to [1]
+	• sudo, apt-get, install not found?
+	• Is graphical desktop available here?
+	• why isn't this working?
+
+	//Goals
+	- Get board up for RDP dev (no physical screen available)
+	- Basic periphs control
+	- Radio samples
+	- USB Periph demo
+
+
+@section 	Reference
+	1. https://develop.phytec.com/imx8mm/latest/quickstart
+	2. https://jira.phytec.com/servicedesk/customer/kb/view/155485294?applicationId=ac6689f8-3ace-3d7c-bdb7-cb18d745127e&portalId=3&pageNumber=1&resultNumber=1&q=login&q_time=1613269155938
+	3. https://linuxize.com/post/how-to-format-usb-sd-card-linux/
+	4. https://develop.phytec.com/imx8mm/latest/software-development/creating-a-bootable-sd-card
+
+

@@ -2,6 +2,7 @@
 Demonstration of Jreina's available skillset &amp; experience
 
 - [agrPhy Wiki](https://github.com/justinmreina/agrPhy/wiki) - a place to explore &amp; have some fun
+- [agrPhy Design](https://github.com/justinmreina/agrPhy/wiki/Design) - how it works
 
 # Opens
 
